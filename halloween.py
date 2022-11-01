@@ -14,10 +14,19 @@ def main():
     # Get the bridge state (This returns the full dictionary that you can explore)
     b.get_api()
 
-    lights = ['Ceiling 5', 'Ceiling 6']
+    #lights = ['Ceiling 5', 'Ceiling 6']
+    lights = [
+        'Front Flood 1',
+        'Front Flood 2',
+        'Porch',
+        'Gate Left Top',
+        'Gate Left Bottom',
+        'Gate Right Top',
+        'Gate Right Bottom'
+    ]
 
     colours = {
-        "orange": {"hue": 11528,
+        "orange": {"hue": 4819,
                    "sat": 254},
         "purple": {"hue": 53212,
                    "sat": 254},
